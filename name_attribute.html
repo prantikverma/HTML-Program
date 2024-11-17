@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+
+        <!--without name attribute-->
+        <div>
+            <label for ="username">enter the neme</label>
+            <input type="text" placeholder="insert name"id ="username">
+    
+        </div>
+       
+        <div>
+            
+            <label for ="password">enter the password</label>
+            <input type="password" placeholder="insert password"id ="password">
+    
+        </div>
+        <button type="submit">click to submit</button>
+
+        <h3>name attribute</h3>
+        <!--with name attribute-->
+
+        <div>
+            <label for ="username">enter the neme</label>
+            <input type="text" placeholder="insert name"id ="username"name="user">
+    
+        </div>
+       
+        <div>
+            
+            <label for ="password">enter the password</label>
+            <input type="password" placeholder="insert password"id ="password"name="pass">
+    
+        </div>
+        <button type="submit">click to submit</button>
+    </form>
+<hr>
+
+        <!--example -->
+        <h2>example</h2>
+    <form action="http://www.youtube.com/results">
+        <div>
+            
+            <label for ="youtube search">enter the search</label>
+            <input type="text" placeholder="insert to search"id ="youtube search"name="search_query">
+    
+        </div>
+        <button type="submit">search into utube</button>
+
+    </form>
+    
+</body>
+</html>
